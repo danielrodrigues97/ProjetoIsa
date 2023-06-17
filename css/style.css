@@ -1,0 +1,30 @@
+.ContainerTop{
+    background-color: brown;
+    height: 600px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+figure>img{
+
+    height: 500px;
+    padding-top: 4px;
+    margin-top: 40px;
+    border-radius: 70%;
+}
+
+.ContainerTop>ul{
+    list-style: none;
+    margin-left: 15em;
+    line-height: 15px;
+}
+
+.ContainerTop>h2{
+    background-color: #2314;
+}
+
+
+
+
