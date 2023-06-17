@@ -7,24 +7,40 @@
     align-items: center;
 }
 
+#principal{
+    margin-left: 10em;
+}
+
 figure>img{
 
     height: 500px;
-    padding-top: 4px;
-    margin-top: 40px;
     border-radius: 70%;
+    line-height: 1px;
 }
 
 .ContainerTop>ul{
     list-style: none;
     margin-left: 15em;
-    line-height: 15px;
+    line-height: 3px;
+}
+
+#position{
+    list-style: none;
+    float: right;
+}
+
+#position>h3{
+    color: red;
+    background: azure; 
+    border-radius: 5px;
+    font-size: 12px;
+    padding: 10px 0;
+}
+
+li>h1{
+    margin-top: 48px;
 }
 
 .ContainerTop>h2{
     background-color: #2314;
 }
-
-
-
-
