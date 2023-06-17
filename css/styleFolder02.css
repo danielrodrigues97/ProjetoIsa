@@ -1,0 +1,65 @@
+.imagem{
+    
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+figure{
+    margin: 0;
+    padding: 0;
+}
+figure>img{
+    height: 300px;
+    width: 300px;
+    background-color: blue;
+    margin: auto;
+    border-radius: 70%;
+}
+figcaption{
+    color: white;
+    font-size: 30px;
+}
+
+.card{
+    height: 400px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+    padding: 30px;
+    
+   
+}
+
+li{
+    background-color: #cceaff;
+    border: 1px solid #5ca8ef;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.biografia{
+    background-color: aqua;
+    height: 500px;
+    
+   
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
