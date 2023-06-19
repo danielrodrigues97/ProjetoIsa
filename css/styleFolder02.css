@@ -1,16 +1,20 @@
 .imagem{
     
-    height: 300px;
+    height: 600px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
+    background-image: url("../imagem/fundo-hexagonal.jpg");
+    background-size: cover;
+    color: #C71585	;
 }
 
 figure{
     margin: 0;
     padding: 0;
+   
 }
 figure>img{
     height: 300px;
@@ -20,7 +24,7 @@ figure>img{
     border-radius: 70%;
 }
 figcaption{
-    color: white;
+    
     font-size: 30px;
 }
 
@@ -32,29 +36,37 @@ figcaption{
     text-align: center;
 }
 
+h1{
+    font-size: 50px;
+    margin-bottom: 0;
+}
+
 ul{
     list-style: none;
-    padding: 30px;
+    padding: 20px;
+    margin: 0;
+    font-size: 30px;
     
-   
+}
+
+a{
+    text-decoration: none;
+    font-family:'Times New Roman', Times, serif;
+    color:#C71585;
 }
 
 li{
-    background-color: #cceaff;
-    border: 1px solid #5ca8ef;
-    margin: 10px;
-    padding: 10px;
+    border: 1px transparent;
+    padding: 5px;
     border-radius: 5px;
-    width: 300px;
     margin-left: auto;
     margin-right: auto;
+    
 }
 
 .biografia{
     background-color: aqua;
     height: 500px;
-    
-   
 }
 
 body{
