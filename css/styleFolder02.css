@@ -1,40 +1,32 @@
-.imagem{
-    
-    height: 600px;
+.imagem{    
+    height: 660px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     padding-top: 50px;
-    padding-bottom: 50px;
-    background-image: url("../imagem/fundo-hexagonal.jpg");
+    /* padding-bottom: 50px; */
+    /* background-image: url("../imagem/fundo-hexagonal.jpg"); */
+    background-image: url("../imagem/fundo-branco.jpg");
     background-size: cover;
-    color: #C71585	;
+    /* color: #C71585	; */
 }
 
-figure{
+.imagem>figure{
     margin: 0;
     padding: 0;
    
 }
-figure>img{
+.imagem01>img{
     height: 300px;
     width: 300px;
-    background-color: blue;
+    /* background-color: blue; */
     margin: auto;
-    border-radius: 70%;
+    border-radius: 60%;
 }
-figcaption{
-    
+figcaption{   
     font-size: 30px;
 }
 
-.card{
-    height: 400px;
-    width: 600px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-}
 
 h1{
     font-size: 50px;
@@ -46,32 +38,76 @@ ul{
     padding: 20px;
     margin: 0;
     font-size: 30px;
-    
 }
 
 a{
     text-decoration: none;
     font-family:'Times New Roman', Times, serif;
-    color:#C71585;
+    color: black; 
 }
 
 li{
-    border: 1px transparent;
+    border: 1px solid;
     padding: 5px;
-    border-radius: 5px;
+    border-radius: 20px;
     margin-left: auto;
     margin-right: auto;
-    
+    width: 250px;
+    margin-bottom: 10px;   
 }
 
-.biografia{
-    background-color: aqua;
+.card{
+    height: 600px;
+    background-image: url("../imagem/fundo-branco.jpg");
+    background-size: cover;
+    display: flex;
+    /* border: 2px solid black;
+    margin: 2px; */
+    border-radius: 2px;
+}
+
+.card>img{
     height: 500px;
+    width: 500px;
+    /* margin-top: 50px; */
+    margin-top: 40px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.card>p{
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 400px;
+    width: 500px;
+    margin-right: 5px;
+    color: white;
+    background-color: #C0C0C0;
+}
+
+#imagem01{
+    margin-right: 10px;
+}
+
+#imagem02{
+    width: ;
+    height: 580px;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+#paragrafo02{
+    width: 65%;
+    height: 480px;
+    margin-top: 10px;
+    margin-right: 5px;
 }
 
 body{
     margin: 0;
     padding: 0;
-    background-color: black;
-    color: white;
+    background-color: white;
 }
