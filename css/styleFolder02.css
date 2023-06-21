@@ -4,22 +4,19 @@
     margin-right: auto;
     text-align: center;
     padding-top: 50px;
-    /* padding-bottom: 50px; */
-    /* background-image: url("../imagem/fundo-hexagonal.jpg"); */
     background-image: url("../imagem/fundo-branco.jpg");
     background-size: cover;
-    /* color: #C71585	; */
 }
 
 .imagem>figure{
     margin: 0;
     padding: 0;
+    width: auto;
    
 }
 .imagem01>img{
     height: 300px;
     width: 300px;
-    /* background-color: blue; */
     margin: auto;
     border-radius: 60%;
 }
@@ -58,12 +55,14 @@ li{
 
 .card{
     height: 600px;
+    width: 100%;
     background-image: url("../imagem/fundo-branco.jpg");
     background-size: cover;
     display: flex;
     border-radius: 2px;
     margin-left: auto;
     margin-right: auto;
+    justify-content: space-around;
 }
 
 .card>img{
@@ -108,4 +107,11 @@ body{
     margin: 0;
     padding: 0;
     background-color: white;
+}
+
+@media screen and (max-width: 768px){
+    .card{
+        width: 100%;
+        flex-direction: column;
+    }
 }
