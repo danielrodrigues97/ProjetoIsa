@@ -131,6 +131,11 @@ body{
         position: relative;
     }
 
+    .p{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
     .imagemCard02{
         height: auto;
         width: auto;
