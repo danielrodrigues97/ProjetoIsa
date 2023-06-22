@@ -114,6 +114,11 @@ body{
 }
 
 @media screen and (max-width: 768px){
+
+    .imagem{
+        height: auto;
+        width: 100%;
+    }
     .card{
         width: 100%;
         height: auto;
