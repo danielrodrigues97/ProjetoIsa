@@ -114,7 +114,9 @@ body{
 }
 
 @media screen and (max-width: 768px){
-
+    body{
+        background-color: azure;
+    }
     .imagem{
         height: auto;
         width: 100%;
