@@ -114,44 +114,38 @@ body{
 
 @media screen and (max-width: 768px){
 
-    body{
-        background-color: white;
-    }
-
     .imagem{
         height: auto;
         width: 100%;
     }
+
     .card{
         width: 100%;
         height: auto;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
-    .imagemCard01{
-        width: 200px;
+    .card>img{
+        position: relative;
         height: 200px;
-        position: relative;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .p{
-        width: 400px;
-        height: 400px;
-        position: relative;
-        margin-left: 20px;
-        margin-right: 20px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .imagemCard02{
         width: 200px;
-        height: 200px;
-        position: relative;
-        margin-left: auto;
-        margin-right: auto;
+        margin: 10px;
     }
 
+    .card>p{
+        width: auto;
+        height: auto;
+        margin: 0px 10px;
+        position: relative;
+    }
+
+    .card>#paragrafo02{
+        width: auto;
+        height: auto;
+        margin: 0 10px 10px 10px;
+        position: relative;
+    }
+    
 }
