@@ -12,12 +12,16 @@
     margin: 0;
     padding: 0;
     width: auto;
-   
+    position: relative;
 }
+
+img{
+    position: relative;
+}
+
 .imagem01>img{
     height: 300px;
     width: 300px;
-    margin: auto;
     border-radius: 60%;
 }
 figcaption{   
@@ -41,6 +45,7 @@ a{
     text-decoration: none;
     font-family:'Times New Roman', Times, serif;
     color: black; 
+    
 }
 
 li{
@@ -59,7 +64,6 @@ li{
     background-image: url("../imagem/fundo-branco.jpg");
     background-size: cover;
     display: flex;
-    border-radius: 2px;
     margin-left: auto;
     margin-right: auto;
     justify-content: space-around;
@@ -112,6 +116,22 @@ body{
 @media screen and (max-width: 768px){
     .card{
         width: 100%;
+        height: auto;
         flex-direction: column;
     }
+
+    .imagemCard01{
+        width: auto;
+        position: relative;
+    }
+
+    .imagemCard02{
+        height: auto;
+        width: auto;
+        position: relative;
+        /* margin-top: 10px;
+        margin-right: 20px;
+        margin-left: 10px; */
+    }
+
 }
