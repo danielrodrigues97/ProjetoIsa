@@ -135,8 +135,8 @@ body{
     }
 
     .p{
-        height: auto;
-        margin: auto;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
     .imagemCard02{
