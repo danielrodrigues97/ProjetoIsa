@@ -129,19 +129,23 @@ body{
     }
 
     .imagemCard01{
-        width: auto;
-        height: auto;
+        width: 400px;
+        height: 400px;
         position: relative;
     }
 
     .p{
+
+        width: 400px;
+        height: 400px;
+        position: relative;
         margin-left: 20px;
         margin-right: 20px;
     }
 
     .imagemCard02{
-        height: auto;
-        width: auto;
+        width: 400px;
+        height: 400px;
         position: relative;
     }
 
