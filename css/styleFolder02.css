@@ -62,7 +62,7 @@ li{
     /* background-color: blue; */
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: black;
-    width: 98.4%;
+    width: auto;
     border: 2px solid;
     font-size: 20px;
     height: 40px;
@@ -143,6 +143,10 @@ body{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+
+    .top-Bar{
+        width: auto;
     }
 
     .card>img{
