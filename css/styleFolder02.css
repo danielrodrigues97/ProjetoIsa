@@ -106,10 +106,7 @@ li{
 
 
 .card>.imagemCard02{
-    width: 600px;
-    /* margin-top: 10px; */
     margin-right: 0px;
-    margin-left: 10px;
 }
 
 
@@ -127,7 +124,7 @@ body{
 
 @media screen and (max-width: 768px){
 
-    .imagem{
+    .header{
         height: auto;       
         width: 100%;
     }
