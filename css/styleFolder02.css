@@ -3,9 +3,11 @@
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    padding-top: 50px;
-    /* background-image: url("../imagem/fundo-branco.jpg"); */
-    /* background-size: cover; */
+    /* padding-top: 50px; */
+     /* background-image: url("../imagem/Logotipo.png"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: white;
 }
 
 .imagem>figure{
@@ -13,6 +15,7 @@
     padding: 0;
     width: auto;
     position: relative;
+    /* background-color: blue; */
 }
 
 img{
@@ -20,16 +23,20 @@ img{
 }
 
 .imagem01>img{
+    margin-top: 20px;
+    margin-bottom: 5px;
     height: 300px;
     width: 300px;
     border-radius: 60%;
 }
+
 figcaption{   
     font-size: 30px;
 }
 
 
 h1{
+    margin-top: ;
     font-size: 50px;
     margin-bottom: 0;
 }
@@ -109,7 +116,7 @@ li{
 body{
     margin: 0;
     padding: 0;
-    background-color: white;
+    /* background-color: red; */
 }
 
 @media screen and (max-width: 768px){
@@ -117,6 +124,11 @@ body{
     .imagem{
         height: auto;
         width: 100%;
+    }
+
+    .imagem01>img{
+        width: 200px;
+        height: 200px;
     }
 
     .card{
