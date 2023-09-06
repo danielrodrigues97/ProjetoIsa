@@ -1,22 +1,71 @@
-.header{    
-    height: 660px;
-    margin-left: auto;
-    margin-right: auto;
+.incio{
+    /* background-color: #077f0f; */
+    /* background: linear-gradient(75deg, #103223, #2c5324, #0ad736); */
+    /* background: linear-gradient(75deg, #fdfdfd,#efe9e9,#eeeaea ); */
+    /* color: white; */
+    background-color: white;
+    font-size: 24px;
+    font-weight: bold;
     text-align: center;
+    padding: 8px;
+    position: relative;
+    height: 40px;
+    width: auto;
+}
+
+nav{
+    position: absolute;
+    top: 0px;
+    left: 0;
+    text-align: left;
+    /* background-color: aliceblue; */
+    /* box-sizing: border-box */
+    width: 100%;
+}
+
+nav ul{
+    margin: 15px 0 10px 0;
+    display: inline-block;
+    
+}
+
+nav li{
+    display: inline-block;
+    margin: 0 0 0 15px;   
+}
+
+nav li img{
+    width: 30px;
+    height: 30px;
+}
+
+nav a{
+    /* font-family: 'Montserrat Alternates', sans-serif; */
+    font-family: 'Poiret One', cursive;
+    text-decoration: none;
+    color: black;
+}
+
+.header{    
+   /* height: 660px;*/
+    width: auto;
+    margin-left: auto;
+    text-align: center;
+    /* background-color: #18a956; */
+    /* background: linear-gradient(30deg, #103223, #4fca7a, #4a6f41); */
 }
 
 .header>figure{
-    margin: 0;
     padding: 0;
-    width: auto;
+    width: 30%;
+    margin: auto;
     position: relative;
+    /* background-color: blue; */
 }
 
-img{
-    position: relative;
-}
 
 .imagem01>img{
+    box-sizing: border-box;
     margin-top: 20px;
     margin-bottom: 5px;
     height: 300px;
@@ -26,40 +75,28 @@ img{
 
 figcaption{   
     font-size: 30px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
 h1{
     font-size: 50px;
-    margin-bottom: 0;
+    margin-bottom: 50px;
 }
 
-ul{
-    list-style: none;
-    padding: 20px;
-    margin: 0;
-    font-size: 30px;
-}
 
-a{
+/* a{
     text-decoration: none;
     font-family:'Times New Roman', Times, serif;
     color: black; 
-}
-
-li{
-    border: 1px solid;
-    padding: 5px;
-    border-radius: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 250px;
-    margin-bottom: 10px;   
-}
+} */
 
 
-.top-Bar{
-    /* background-color: blue; */
+
+/* .top-Bar{
+    background-color: blue; 
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: black;
     width: 98.5%;
@@ -71,6 +108,20 @@ li{
     font-weight: bold;
     text-align: center;
     padding: 0;
+} */
+
+
+.top-Bar{
+    /* background: linear-gradient(30deg, #103223, #4fca7a, #4a6f41); */
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    padding: 8px;
+    position: relative;
+    height: 40px;
+    width: auto;
+    margin-top: 20px;
 }
 
 .top-Bar>h2{
@@ -78,15 +129,20 @@ li{
 }
 
 .card{
-    height: 600px;
+    height: auto;
     width: 100%;
     display: flex;
     margin-left: auto;
     margin-right: auto;
     justify-content: space-around;
+    margin-top: 40px;
+    margin-bottom: 0;
+    box-sizing: border-box;
+    
 }
 
 .card>img{
+    box-sizing: border-box;
     height: 500px;
     margin-right: 10px;
     margin-left: 10px;
@@ -100,26 +156,36 @@ li{
     padding-bottom: 50px;
     height: 400px;
     margin-right: 5px;
-    color: white;
-    background-color: #C0C0C0;
+    /* color: white; */
+    background-color: white;
+    box-sizing: border-box;
+    font-family: "Shippori Mincho", serif; 
 }
 
 
-.card>.imagemCard02{
+/* .card>.imagemCard02{
     margin-right: 0px;
-}
+} */
 
 
 #paragrafo02{
     height: 400px;
     /* margin-top: 10px; */
-    margin-right: 10px;
+    margin: 0 10% 0 10%
+}
+
+.fim{
+    width: auto;
+    height: 20px;
+    background-color: white;
 }
 
 body{
     margin: 0;
     padding: 0;
-    background-color: whitesmoke;
+    background-color: white;
+    font-family: 'Poiret One', cursive;
+    /* background: linear-gradient(30deg, #103223, #4fca7a, #4a6f41); */
 }
 
 @media screen and (max-width: 768px){

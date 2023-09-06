@@ -1,4 +1,4 @@
-.ContainerTop{
+/*.ContainerTop{
     background-color: brown;
     height: 600px;
     margin: 0;
@@ -9,22 +9,27 @@
 
 #principal{
     margin-left: 10em;
-}
+}*/
 
+figure{
+    position: center;
+    width: 500px;
+    height: 500px;
+}
 figure>img{
 
     height: 500px;
     border-radius: 70%;
     line-height: 1px;
 }
-
+/*
 .ContainerTop>ul{
     list-style: none;
     margin-left: 15em;
     line-height: 3px;
-}
+}*/
 
-#position{
+/*#position{
     list-style: none;
     float: right;
 }
@@ -36,7 +41,7 @@ figure>img{
     font-size: 12px;
     padding: 10px 0;
 }
-
+*/
 li>h1{
     margin-top: 48px;
 }
