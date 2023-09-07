@@ -190,6 +190,12 @@ body{
 
 @media screen and (max-width: 768px){
 
+    .incio{
+        height: 80px;
+        width: 100%;
+        font-size: 15px;
+    }
+   
     .header{
         height: auto;       
         width: 100%;
@@ -209,7 +215,12 @@ body{
     }
 
     .top-Bar{
-        width: 90%;
+        width: auto;
+        text-align: center;
+    }
+
+    .top-bar>#top-bar02{
+        width: 100%;
     }
 
     .card>img{
@@ -219,11 +230,16 @@ body{
         margin: 10px;
     }
 
+    .card>#imagemCard02{
+        margin-top: 30px;
+    }
+
     .card>p{
         width: auto;
         height: auto;
         margin: 0px 10px;
         position: relative;
+        padding: 0;
     }
 
     .card>#paragrafo02{
