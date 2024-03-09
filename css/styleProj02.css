@@ -14,12 +14,14 @@ body{
     font-family: "Poppins", sans-serif;
 }
 .left-sidebar{
+    position: fixed;
     max-width: 230px;
     min-width: 230px;
+    height: 100%;
     /* background: #07916d; */
     background: white;
     text-align: center;
-    border-right: 1px solid #d0d9d5;
+    border-right: 2px solid #d0d9d5;
 }
 
 #imageMenu{
@@ -101,6 +103,37 @@ body{
     align-items: center;
     margin-right: 20px;
 }
+
+.page{
+    height: 100%;
+}
+
+#teste{
+    height: 700px;
+    width: 100%;
+    background: url("../imagem/isabelle\ prado.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+}
+
+/*#teste{
+    background: black;
+    color: #7aa158;
+    padding: 0 10px 0 10px;
+    margin: 0 2px 0 2px;
+    height: 500px;
+    width: 100%;
+    box-sizing: border-box;
+    position: flex;
+}
+
+#teste02{
+    background: blue;
+    margin: 10px;
+    color: black;
+    height: 400px;
+}*/
 
 
 
